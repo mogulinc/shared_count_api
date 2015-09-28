@@ -64,6 +64,10 @@ module SharedCountApi
       facebook_metrics["share_count"]
     end
 
+    def facebook_total_count
+      facebook_metrics["total_count"]
+    end
+
     def facebook_comments
       facebook_metrics["comment_count"]
     end
